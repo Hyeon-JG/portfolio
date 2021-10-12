@@ -398,39 +398,58 @@ vertical-align: middle;
 }
 
 .btn-home {
-  border: 1px solid #ffffff;
-  background-color:none;
-  width: 270px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  background-color: none;
+  width: 230px;
+  text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.7);
   margin: auto;
-  margin-top:170px;
+  margin-top: 50px;
   color: white;
-  padding: 25px 40px;
+  padding: 20px;
   text-align: center;
   text-decoration: none;
-  font-size: 28px;
+  font-size: 20px;
+  letter-spacing: 2px;
   display: flex;
   justify-content: center;
   cursor: pointer;
+  -ms-user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+  /* background-color: rgba(0, 0, 0, 0.5); */
+  /* -webkit-backdrop-filter: blur(10px);
+  -moz-backdrop-filter: blur(10px);
+  -o-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px); */
   }
 
   .btn-home:hover {
-    -webkit-transition:background-color 2s, color 2s, -webkit-transform 2s;
-    transition:width 2s, height 2s, background-color 2s, transform 2s;
+    -webkit-transition: 0.7s;
+    /* background-color 2s, color 2s, -webkit-transform 2s; transition:width 2s, height 2s, background-color 2s, transform 2s; */
       color: black;
       background-color:#ffffff;
-
+      /* background-color: rgba(255, 255, 255, 0.5); */
+      -webkit-backdrop-filter: blur(10px);
+      -moz-backdrop-filter: blur(10px);
+      -o-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+      text-shadow: 0px 0px 0px rgba(0, 0, 0, 0);
   }
 
 .title-home{
-  position:relative;
-  color:#ffffff;
-  margin: 50px;
+  position: relative;
+  color: #ffffff;
+  margin: 0px 50px;
+  margin-bottom: 55px;
   text-align: center;
-
+  text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
 }
 
 .title-home-subtext{
-  font-size: 20px;
+  font-size: 16px;
+  font-weight: 300;
 }
 
 .container-profile
